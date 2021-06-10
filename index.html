@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0"/>
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="logic.js">
+    </script>
+    <title>Lottery</title>
+</head>
+<body>
+    <div class="boxes">
+        <button class="btn btn-primary" onclick="generateLottery()">Generate Lottery</button>
+        <button class="btn btn-warning">Share via Slack</button>
+        <button class="btn btn-secondary">Share via Email</button>
+    </div>
+    <div class="container">
+        <div class="result">
+            <div class="team-card" id="team1">
+                
+            </div>
+            <div class="team-card" id="team2">
+                
+            </div>
+            <div class="team-card" id="team3">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

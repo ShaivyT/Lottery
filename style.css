@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card {
+    background-color:cornflowerblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.container {
+    box-sizing: border-box;
+    margin-top: 30vh;
+}
